@@ -14,7 +14,7 @@ for(int i = 0; i < 10; i++) {
 	Z[i] = X[i] + Y[i];
     cout << X[i] << "\n";
     cout << Y[i] << "\n";
-	cout << Z[i] << " ";
+	cout << Z[i] << "\n";
 }
 
 }

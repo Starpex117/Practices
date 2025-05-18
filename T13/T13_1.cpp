@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-    const int columnas = 4;
     const int filas = 3;
+    const int columnas = 4;
     int M[filas][columnas] = {
         {4, 8, 12, 16},
         {2, 4, 6, 8},
