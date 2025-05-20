@@ -41,7 +41,7 @@ for(k = 0; k < 4; k++) {
 }
 cout << endl;
 // Sum all votes for candidates
-Total = VotosCurso;
+Total = VotosCurso; 
 for(k = 0; k < 4; k++) {
     Total += VotosCandidato[k];
 }

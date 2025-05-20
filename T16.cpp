@@ -1,43 +1,4 @@
-using namespace std;
-#include <iostream>
-int SalarioBasico(float, float);
-int Subsidio(int);
-int Bonificacion(char);
 
-int main() {
-int Numero_Horas;
-int Numero_Hijos;
-int Menu;
-int Resultado;
-float Resultado_2;
-    do
-{ cout << "Que opcion desea" << endl;
-    cout << "\t 1. Salario Basico" << "\t Subsidio familiar" << "\t 3. Bonificacion" << "\t 4. Salir" << endl;
-    cin >> Menu;
-    switch(Menu) {
-    case 1:
-        cout << "Cuantas horas de trabajo tiene usted " << endl;
-        cin >> Numero_Horas;
-
-        break;
-    case 2:
-    cout << "Cuantos hijos tiene " << endl;
-    cin >> Numero_Hijos;
-    Resultado = Subsidio(Numero_Hijos);
-    cout << "Su subsidio es de " << Resultado;
-        break;
-    case 3:
-    cout << "Cual es su tipo de contrato " << endl;
-
-    }
-} while (condition);
-
-
-
-    return 0;
-}
-
-/*
 #include <iostream>
 #include <cctype> // Para toupper
 using namespace std;
@@ -109,7 +70,7 @@ int main() {
 }
 
 // Función 1: Calcular salario básico
-float SalarioBasico(int horas, float valorHora) {
+float SalarioBasico(int horas, float valorHora) {1
     float salario;
     if (horas <= 180) {
         salario = horas * valorHora;
@@ -138,4 +99,3 @@ int Bonificacion(char tipoContrato) {
     }
 }
 
-*/
